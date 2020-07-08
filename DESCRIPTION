@@ -3,9 +3,7 @@ Type: Package
 Title: Scrape Color Palettes from SchemeColor.com
 Version: 1.0.0
 Authors@R: 
-    c(person("Dayne L", "Filer", 
-             role = c("aut", "cre"), 
-             email = "dayne.filer@gmail.com")
+    c(person("Dayne L", "Filer", role = c("aut", "cre"), email = "dayne.filer@gmail.com")
 Maintainer: Dayne Filer <dayne.filer@gmail.com>
 Description: This package provides the function schemeColoR for scraping color
     palettes from SchemeColor.com.
