@@ -1,0 +1,23 @@
+Package: schemeColoR
+Type: Package
+Title: Scrape Color Palettes from SchemeColor.com
+Version: 1.0.0
+Authors@R: 
+    c(person("Dayne L", "Filer", 
+             role = c("aut", "cre"), 
+             email = "dayne.filer@gmail.com")
+Maintainer: Dayne Filer <dayne.filer@gmail.com>
+Description: This package provides the function schemeColoR for scraping color
+    palettes from SchemeColor.com.
+URL: https://github.com/daynefiler/schemeColoR
+License: GPL-3
+Imports: 
+    methods,
+    tidyr,
+    xml2,
+    rvest, 
+    stringr,
+    dplyr
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
