@@ -1,6 +1,6 @@
 # schemeColoR: SchemeColor.com in R <img src="man/figures/schemeColoR.png" width="150" align="right" />
 
-![R-CMD-check](https://github.com/daynefiler/schemeColoR/workflows/R-CMD-check/badge.svg)
+![R-CMD-check](https://github.com/daynefiler/schemeColoR/workflows/R-CMD-check/badge.svg?branch=master)
 
 schemeColoR provides a simple function for pulling color palettes from [SchemeColor.com](https://www.schemecolor.com/) into R.
 
