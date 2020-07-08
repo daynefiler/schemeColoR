@@ -1,4 +1,4 @@
-# schemeColoR: scrape colors from SchemeColor.com <img src="man/figures/schemeColoR.png" width="150" align="right" />
+# schemeColoR: SchemeColor.com in R <img src="man/figures/schemeColoR.png" width="150" align="right" />
 
 schemeColoR provides a simple function for pulling color palettes from [SchemeColor.com](https://www.schemecolor.com/) into R.
 
