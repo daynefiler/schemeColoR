@@ -1,19 +1,21 @@
-# schemeColoR: scrape color palettes from SchemeColor <img src="man/figures/schemeColoR.png" width="150" align="right" />
+# schemeColoR: SchemeColor.com in R <img src="man/figures/schemeColoR.png" width="150" align="right" />
 
-schemeColoR provides a simple function for pulling color palettes into R.
+![R-CMD-check](https://github.com/daynefiler/schemeColoR/workflows/R-CMD-check/badge.svg)
+
+schemeColoR provides a simple function for pulling color palettes from [SchemeColor.com](https://www.schemecolor.com/) into R.
 
 ## Installation
 
 To install the package from GitHub run:
 
 ```
-devtools::install_github("daynefiler/schemeColoR", build_opts = "", dependencies = TRUE)
+devtools::install_github("daynefiler/schemeColoR", dependencies = TRUE)
 library(schemeColoR)
 ```
 
 ## Usage
 
-The package currently contains one funciton, `schemeColoR()`, which takes the name of a palette from [SchemeColor.com]. Note, the function takes a couple seconds to run due to the slower server response.
+The package currently contains one funciton, `schemeColoR()`, which takes the name of a palette. Note, the function takes a couple seconds to run due to the slower server response.
 
 ```
 schemeColoR("BISEXUALITY FLAG COLORS")
